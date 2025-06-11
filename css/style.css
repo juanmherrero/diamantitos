@@ -1,0 +1,484 @@
+@charset "UTF-8";
+@import "https://fonts.googleapis.com/css2?family=Raleway&display=swap";
+/*MEDIAS QUERIES*/
+@media (max-width: 606px) {
+  .mapa {
+    display: none; } }
+
+@media (max-width: 767px) {
+  .img {
+    width: 50%; }
+  .imgDos {
+    width: 60%; }
+  .tab {
+    display: none; } }
+
+@media (min-width: 768px) {
+  .mob {
+    display: none; } }
+
+footer {
+  font-family: "Raleway", sans-serif;
+  background-color: #200035;
+  color: white; }
+
+header {
+  font-family: "Raleway", sans-serif;
+  top: 0px;
+  background-color: #200035;
+  color: white;
+  padding-bottom: 25px; }
+
+main {
+  background: linear-gradient(to bottom, #329bd2, #b5def2); 
+  font-family: "Raleway", sans-serif;
+  color: white;
+}
+section {
+  padding: 100px;
+}
+.derechos {
+  text-align: center;
+  padding: 15px 0 25px 0; }
+
+.botDiv {
+  background-color: #329bd2;
+  padding: 20px; }
+
+.disclaimer {
+  display: none; }
+
+/*NAV BUSCAR*/
+/* Navbar */
+        .navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: #200035;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 15px 20px;
+            transition: all 0.3s ease;
+            z-index: 1000;
+        }
+
+        .navbar.shrink {
+            padding: 5px 20px;
+            justify-content: flex-start; /* Alinea a la izquierda */
+        }
+
+        .navbar ul {
+            font-family: "Roboto", sans-serif;
+            list-style: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+        .navbar ul li {
+            margin: 0 15px;
+        }
+        .navbar ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .main {
+            margin-top: 80px;
+            padding: 0px;
+        }
+
+        /* Logo */
+        .logo {
+            height: 50px;
+            transition: all 0.3s ease;
+        }
+
+        .navbar.shrink .logo {
+            height: 30px; /* Nuevo tamaño del logo */
+        }
+
+.form-container {
+  text-align: center;
+  width: 50%;
+  padding: 16px;
+  border-radius: 10px;
+  margin: auto;
+  margin-bottom: 30px;
+  background-color: #200035; }
+  .form-container label {
+    width: 50%;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 8px; }
+  .form-container input[type="text"],
+  .form-container input[type="email"],
+  .form-container input[type="number"]{
+    width: 90%;
+    padding: 3px 10px 15px;
+    border: 1px solid #07070A;
+    border-radius: 3px;
+    background-color: white;
+    margin: 8px 5% 0 5%;
+    display: inline-block; }
+  .form-container input[type="submit"],
+  .form-container input[type="reset"] {
+    width: 90%;
+    padding: 8px 16px;
+    margin-top: 5%;
+    border: 1px solid #07070A;
+    border-radius: 5px;
+    display: inline-block;
+    color: white;
+    background-color: #329bd2; }
+  .form-container input[type="submit"]:hover {
+    cursor: pointer; }
+  .form-container .botEnv {
+    text-align: center;
+    width: 90%;
+    padding: 8px 16px;
+    margin-top: 5%;
+    margin-left: 5%;
+    border: 1px solid #329bd2;
+    border-radius: 5px;
+    display: inline-block;
+    color: white;
+    background-color: #329bd2; }
+  .form-container textarea {
+    width: 90%;
+    height: 100px;
+    border: 1px solid white;
+    border-radius: 3px;
+    background-color: white;
+    margin-top: 8px;
+    margin-left: 5%;
+    border: 1px solid #329bd2;
+    resize: none;
+    display: block;
+    margin-top: 15px; }
+ /* Contenedor del video */
+        .video {
+            width: 90%; /* Ocupa el 90% del ancho disponible */
+            max-width: 800px; /* Máximo ancho en pantallas grandes */
+            aspect-ratio: 16 / 9; /* Relación de aspecto 16:9 */
+            position: relative;
+        }
+
+        /* Video en iframe */
+        .video iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%; /* Ocupa todo el ancho del contenedor */
+            height: 100%; /* Ocupa toda la altura del contenedor */
+            border: none; /* Sin borde */
+        }
+.tweet {
+  text-align: center;
+  width: 50%;
+  padding: 16px;
+  border-radius: 10px;
+  margin: auto;
+  margin-bottom: 30px;
+}
+/*NEWSLETTER*/
+.newsletter {
+  background-color: #200035;
+  color: white;
+  text-align: center;
+  padding: 30px;
+  margin-top: 45px; }
+
+/*PRODUCTOS Y GÉNEROS*/
+.gen {
+  text-align: center; }
+
+.texto {
+  text-align: center;
+  margin-top: 15px;
+  display: inline; }
+.text2 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  
+}
+.divCate {
+  padding-top: 60px; }
+
+/*PRODUCTOS INDEX*/
+.prod {
+  text-align: center; }
+
+.textoDos {
+  text-align: center;
+  display: inline;
+  margin-top: 15px; }
+
+.divProd {
+  padding-bottom: 20px; }
+
+/*SECCIONES SOBRE NOSOTROS*/
+.busLocal {
+  padding: 0 20% 0 20%; }
+
+.local {
+  text-align: center; }
+
+.mapa {
+  padding-bottom: 15px; }
+
+/*BOTON INICIO CONTACTO*/
+.inicioContacto {
+  text-align: center;
+  padding-bottom: 15px; }
+
+/*SECCION FAQS*/
+.seccionUno {
+  text-align: justify;
+  padding-top: 30px; }
+
+.row {
+  margin: 0; }
+
+/*ANIMACIONES IMAGENES*/
+.ani {
+  transition-duration: 1s; }
+  .ani:hover {
+    width: 80%; }
+
+.ani2 {
+  transition-duration: 1s; }
+  .ani2:hover {
+    width: 60%; }
+
+/*LOGOS*/
+.logoPral {
+  text-align: center; }
+
+.logoChico {
+  text-align: center;
+  }
+.logoChic {
+  width: 150px; /* Cambia el ancho */
+  height: auto; /* Ajusta la altura automáticamente */
+}
+/*IMG PRODUCTOS*/
+.img {
+  display: inline;
+  width: 90%;
+  height: auto;
+  text-align: center;
+  margin-top: 10px; }
+
+.imgDos {
+  display: inline;
+  width: 70%;
+  height: auto;
+  text-align: center;
+  margin-top: 10px; }
+
+/*LOGO WSP*/
+.mensajeWsp {
+  position: fixed;
+  bottom: 35px;
+  right: 15px; }
+
+/*CAROUSEL*/
+.carousel {
+  width: 97%;
+  margin: auto;
+  transition-duration: 2s;
+  padding-top: 15px;
+  padding-bottom: 30px; }
+
+.img-fluid {
+  width: 100%;
+  height: auto; }
+
+form {
+  font-family: "Raleway", sans-serif; }
+
+.formContacto {
+  text-align: center;
+  width: 50%;
+  padding: 16px;
+  border-radius: 10px;
+  margin: auto;
+  margin-bottom: 30px;
+  background-color: #0081A7; }
+  .formContacto label {
+    width: 50%;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 8px; }
+  .formContacto input[type="text"],
+  .formContacto input[type="email"] {
+    width: 90%;
+    padding: 3px 10px 15px;
+    border: 1px solid #07070A;
+    border-radius: 3px;
+    background-color: white;
+    margin: 8px 5% 0 5%;
+    display: inline-block; }
+  .formContacto input[type="submit"],
+  .formContacto input[type="reset"] {
+    width: 90%;
+    padding: 8px 16px;
+    margin-top: 5%;
+    border: 1px solid #07070A;
+    border-radius: 5px;
+    display: inline-block;
+    color: white;
+    background-color: #07070A; }
+  .formContacto input[type="submit"]:hover {
+    cursor: pointer; }
+  .formContacto .botEnv {
+    text-align: center;
+    width: 90%;
+    padding: 8px 16px;
+    margin-top: 5%;
+    margin-left: 5%;
+    border: 1px solid #07070A;
+    border-radius: 5px;
+    display: inline-block;
+    color: white;
+    background-color: #07070A; }
+  .formContacto textarea {
+    width: 90%;
+    height: 100px;
+    border: 1px solid white;
+    border-radius: 3px;
+    background-color: white;
+    margin-top: 8px;
+    margin-left: 5%;
+    border: 1px solid #07070A;
+    resize: none;
+    display: block;
+    margin-top: 15px; }
+
+/*ESTILOS BÁSICOS*/
+h1 {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-size: 2rem; }
+
+h2 {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-size: 2rem; }
+
+h3 {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-size: 1rem; }
+
+.titulo {
+  padding-top: 55px;
+}
+
+p {
+  font-family: "Raleway", sans-serif;
+  padding: 5px 20px 20px; }
+
+ul {
+  list-style-type: none;
+  font-family: "Raleway", sans-serif; }
+
+/*LISTA FAQS*/
+.listPunt {
+  list-style-type: circle; }
+
+ol {
+  font-family: "Raleway", sans-serif; }
+
+a {
+  text-decoration: none;
+  font-family: "Raleway", sans-serif; }
+  a:link {
+    color: black; }
+  a:visited {
+    color: black; }
+
+.textoLista {
+  margin: 35px; }
+
+fieldset {
+  border: none; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 0;
+}
+.cardContainer{
+    display: inline-flex;
+}
+.card{
+  text-align: center;
+  margin: 0 5px;
+  height: auto;
+  width: 30%;
+  border-radius: 12px;
+  border: solid 2px;
+  color: white;
+  background-color: #200035;
+  box-shadow: 0 0 15px rgba(0,0,0,0.4);
+}
+@font-face {
+  src: url("https://www.axis-praxis.org/fonts/webfonts/MetaVariableDemo-Set.woff2")
+    format("woff2");
+  font-family: "Meta";
+  font-style: normal;
+  font-weight: normal;
+}
+.sweet-title, .sweet-title2, .sweet-title3 {
+  order: 2;
+  color: #fde9ff;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: clamp(3rem, 10vw, 6rem);
+  line-height: 0.75em;
+  text-align: center;
+  text-shadow: 3px 1px 1px #4af7ff, 2px 2px 1px #165bfb, 4px 2px 1px #4af7ff,
+    3px 3px 1px #165bfb, 5px 3px 1px #4af7ff, 4px 4px 1px #165bfb,
+    6px 4px 1px #4af7ff, 5px 5px 1px #165bfb, 7px 5px 1px #4af7ff,
+    6px 6px 1px #165bfb, 8px 6px 1px #4af7ff, 7px 7px 1px #165bfb,
+    9px 7px 1px #4af7ff;
+
+  span {
+    display: block;
+    position: relative;
+
+    &:before {
+      content: attr(data-text);
+      position: absolute;
+      text-shadow: 2px 2px 1px #e94aa1, -1px -1px 1px #c736f9,
+        -2px 2px 1px #e94aa1, 1px -1px 1px #f736f9;
+      z-index: 1;
+    }
+
+    &:nth-child(1) {
+      padding-right: 2.25rem;
+    }
+
+    &:nth-child(2) {
+      padding-left: 2.25rem;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .sweet-title {
+    display: none; } 
+}
+@media (min-width: 767px) {
+  .sweet-title2 {
+    display: none; } 
+}

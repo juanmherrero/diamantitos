@@ -482,3 +482,21 @@ fieldset {
   .sweet-title2 {
     display: none; } 
 }
+@media (max-width: 767px) {
+  .navbar {
+    width: 100%;}
+  .cardContainer {
+    width: 100%;
+  }
+  .card {
+    width: 100%;
+  }
+  .card h1 {
+    
+    text-size-adjust: 50%;
+  }
+}
+@media (max-width: 767px) {
+  .text {
+    padding-top: 150px; } 
+}
